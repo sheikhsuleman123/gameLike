@@ -1,36 +1,44 @@
 import React, { Component } from 'react'
 import './Header.css';
+import logo from '../../assets/images/logo.png';
+
 
 class Header extends Component {
   render() {
     return (
       
-      <div className="header">
-   <nav class="navbar navbar-expand-lg ">  
+  <div className="header">
+   <nav class="navbar navbar-expand-lg navbar-light ">  
        
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button btn-dark" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="btn btn-dark navbar-toggler-icon"></span>
   </button>
+  
   <div>
-  <img src="" class="img-fluid img-thumbnail" alt="Smiley face" height="42" width="42" />
-       <span className="logo">gamelike</span>
-       </div>    
+  <img src={logo}  alt="Smiley face" height="60" width="250"  />
+  </div>    
+  
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <div class="btn-group">
-  <button type="button" class="btn nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Guide
+      <li class="nav-item active"> 
+      <div class="btn-group hori">
+  <button type="button" class="btn expand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
   </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Game Setting</a>
+  <div class="dropdown-menu back">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+   
   </div>
-    </div>
-    <div class="btn-group">
-  <button type="button" class="btn nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+</div>  
+    </li>
+    <li>
+    <div class="btn-group hori">
+  <button type="button" class="btn expand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Players
   </button>
-  <div class="dropdown-menu">
+  <div class="dropdown-menu back">
     <a class="dropdown-item" href="#">Game Setting</a>
     <a class="dropdown-item" href="#">Game Setting</a>
     <a class="dropdown-item" href="#">Game Setting</a>

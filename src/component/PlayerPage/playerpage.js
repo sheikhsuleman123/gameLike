@@ -3,7 +3,7 @@ import './player.css';
 
 const PLayerPage = () => {
     return (
-            <div className="head">
+            <div >
                 hallo player
             </div>
     );
