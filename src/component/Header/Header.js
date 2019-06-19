@@ -14,8 +14,8 @@ class Header extends Component {
     <span class="btn btn-dark navbar-toggler-icon"></span>
   </button>
   
-  <div>
-  <img src={logo}  alt="Smiley face" height="60" width="250"  />
+  <div className="logoimg">
+  <img src={logo}  alt="Smiley face" height="45" width="230"  />
   </div>    
   
   <div class="collapse navbar-collapse" id="navbarText">
