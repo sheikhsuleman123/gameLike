@@ -11,7 +11,7 @@ class Header extends Component {
    <nav class="navbar navbar-expand-lg navbar-light ">  
        
   <button class="navbar-toggler" type="button btn-dark" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="btn btn-dark navbar-toggler-icon"></span>
+    <span class="btn navbar-toggler-icon"></span>
   </button>
   
   <div className="logoimg">
@@ -20,32 +20,30 @@ class Header extends Component {
   
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"> 
-      <div class="btn-group hori">
-  <button type="button" class="btn expand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action
-  </button>
-  <div class="dropdown-menu back">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-   
-  </div>
-</div>  
-    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Action
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
     <li>
-    <div class="btn-group hori">
-  <button type="button" class="btn expand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Players
-  </button>
-  <div class="dropdown-menu back">
-    <a class="dropdown-item" href="#">Game Setting</a>
-    <a class="dropdown-item" href="#">Game Setting</a>
-    <a class="dropdown-item" href="#">Game Setting</a>
-    <a class="dropdown-item" href="#">Game Setting</a>
-
-  </div>
-    </div>
+      
+    <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Players
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Game Setting</a>
+          <a class="dropdown-item" href="#">Game Setting </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Game Setting</a>
+        </div>
+      </li>
       </li>
     </ul>
     
