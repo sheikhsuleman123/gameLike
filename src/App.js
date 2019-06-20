@@ -9,17 +9,16 @@ import PlayerPage from './component/PlayerPage/playerpage.js';
 
 const  App = () => {
   return (
+    
     <BrowserRouter>
-    <div>
      <header>
       <Header/>
      </header>
     <Route path ="/" exact component={Home} />
     <Route path ="/playerpage" exact component={PlayerPage} />
     
-    
-    </div>
       </BrowserRouter>
+    
   );
 }
 

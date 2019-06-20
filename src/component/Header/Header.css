@@ -1,18 +1,30 @@
-
-.logo{
-  font-size: 25px;
-  align-self: center;
+.header{
+  height: 150px;
+  background-color: #f5f5f5;
+  /* border: 2px solid red; */
+}
+.header .navbar{
+  height: 85px;
+  /* border: 2px solid green; */
+  background-color: #fff;
+}
+.navbar-collapse .nav-item{
+  margin-top: 15px;
+  padding: 20px;
+  /* margin-left: 10px; */
+}
+.navbar-collapse .marginright{
+  margin-left: 20px;
 }
 
 @media screen and (min-width:768px){
   .navbar-brand-centered {
       position: absolute;
-      left: 45%;
+      left: 40%;
       display: block;
       width: 160px;
-      text-align: center;
-      /* background-color: #eee; */
   }
+
   .navbar>.container .navbar-brand-centered, 
   .navbar>.container-fluid .navbar-brand-centered {
       margin-left: -80px;
@@ -26,9 +38,4 @@
 }
 .expand::selection{
   border: none;
-}
-@media screen and (max-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
 }

@@ -1,3 +1,56 @@
-.head{
-    background-color: brown;
+.main-container{
+    /* border: 5px solid green; */
+    background-color: #f5f5f5;
 }
+.container{
+    height: 600px;
+    width: 90%;
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+.inner-container{
+    margin-top: 7%;
+}
+.player-name{
+    margin-left: 13%;
+    font-size: 32px;
+}
+.marginTop{
+    margin-top: 18%;
+}
+.marginTop2{
+    margin-top: 33%;
+}
+
+.border2{
+    border: 2px solid red;
+}
+@media screen and (max-width: 576px) {
+    h6 {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    p {
+       text-align: center;
+      /* background-color: aqua; */
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .content img {
+        margin-left: 47%;
+       /* background-color: red; */
+     }
+   }
+   @media screen and (max-width: 576px) {
+    .content .par {
+        margin-left: 42%;
+      /* background-color:red; */
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .content .pal {
+        margin-left: 44%;
+      /* background-color:black; */
+    }
+  }
