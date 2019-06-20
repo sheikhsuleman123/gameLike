@@ -4,6 +4,8 @@ import logo from '../../assets/images/logo.png';
 
 
 class Header extends Component {
+  
+  
   render() {
     return (
       
@@ -15,7 +17,7 @@ class Header extends Component {
   </button>
   
   <div  className="navbar-brand navbar-brand-centered">
-  <img src={logo}  alt="Smiley face" height="45" width="230"  />
+  <img src={logo}  alt="Smiley face" height="45"   />
   </div>     
   
   <div class="collapse navbar-collapse" id="navbarText">
@@ -25,23 +27,22 @@ class Header extends Component {
         Action
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Best Video Setting For Fortune</a>
+         
         </div>
       </li>
     <li>
       
     <li class="nav-item dropdown">
-        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link marginright" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Players
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Game Setting</a>
-          <a class="dropdown-item" href="#">Game Setting </a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Game Setting</a>
+          <a class="dropdown-item" href="#">CLOAK</a>
+          <a class="dropdown-item" href="#">NICKMERCS </a>
+          <a class="dropdown-item" href="#">NINJA</a>
+          <a class="dropdown-item" href="#">AYDAN</a>
+          
         </div>
       </li>
       </li>

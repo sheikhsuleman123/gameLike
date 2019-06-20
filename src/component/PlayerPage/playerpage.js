@@ -26,7 +26,7 @@ const PLayerPage = () => {
         <div className="main-container">
             <div className="container">
 
-                <div class="ffb-id-1ou8n7qr fg-row row fg-row-no-gutter   fg-row-match-cols  fg-text-dark">
+                <div class="ffb-id-1ou8n7qr fg-row row fg-row-no-gutter fg-row-match-cols  fg-text-dark topi">
                     <div class="ffb-id-2aqbu3mn fg-col col-xs-12 col-md-4 fg-text-dark" style={{ height: "474px;" }}>
                         <div class="fg-match-column-inside-wrapper marginTop">
                             <h1 class="ffb-id-2bv02d2u fg-heading text-center fg-text-dark ">Aydan</h1>
@@ -72,7 +72,7 @@ const PLayerPage = () => {
                                             
                                         <div class="ffb-id-2bpmp422 fg-wrapper fg-text-dark content">
                                                 <h6 class="ffb-id-2bpmp420 fg-heading  fg-text-dark marginTop2 marginleft"> Player</h6>
-                                                <p class="ffb-id-2bpmp421 fg-paragraph text-left  pal  fg-text-dark marginleft">Ninja</p>
+                                                <p class="ffb-id-2bpmp421 fg-paragraph text-left  pal  fg-text-dark marginleft">Aydan</p>
                                           </div>
                                             <div class="ffb-id-2bpmp422 fg-wrapper fg-text-dark ">
                                                 <h6 class="ffb-id-2bpmp425 fg-heading  fg-text-dark marginTop2  marginleft">DOB</h6>
@@ -107,7 +107,29 @@ const PLayerPage = () => {
                         </div>
                     </div>
                 </div>
-                
+{/* <div class="fg-row row    ">
+    <div class="ffb-id-2bcgloho fg-col col-xs-12 col-md-12 fg-el-has-bg fg-text-dark has-fg-bg fg-hover" style={{zIndex:1}}>
+        <span class="fg-bg"><span class="fg-bg-layer fg-bg-type-color " style={{opacity:1}}> </span>
+        </span>
+        <h3 class="ffb-id-2bch1ejk fg-heading text-center  fg-text-dark">Ninja's Keybinds</h3>
+            <div id="tablepress-1_wrapper" class="dataTables_wrapper no-footer"><table id="tablepress-1" 
+            class="tablepress tablepress-id-1 dataTable no-footer" role="grid" aria-describedby="tablepress-1_info">
+                <thead><tr class="row-1 odd" role="row"><th class="column-1 sorting_disabled" rowspan="1" colspan="1"
+                 style={{width: 625}}>Input</th><th class="column-2 sorting_disabled" rowspan="1" colspan="1" 
+                 style={{width: 443}}>Action</th></tr></thead><tbody class="row-hover"><tr class="row-2 even" role="row">
+                     <td class="column-1">Thumb Mouse Button</td><td class="column-2">Wall</td></tr><tr class="row-3 odd" role="row">
+                         <td class="column-1">F</td><td class="column-2">Floor</td></tr><tr class="row-4 even" role="row">
+                             <td class="column-1">Thumb Mouse Button 2</td><td class="column-2">Stairs</td></tr>
+                             <tr class="row-5 odd" role="row"><td class="column-1">'</td><td class="column-2">Roof</td>
+                             </tr><tr class="row-6 even" role="row"><td class="column-1">5</td><td class="column-2">Trap</td>
+                             </tr><tr class="row-7 odd" role="row"><td class="column-1">G</td><td class="column-2">Building Edit</td>
+                             </tr></tbody></table><div class="dataTables_info" id="tablepress-1_info" role="status" aria-live="polite">
+                                 Showing 1 to 6 of 24 entries</div><div class="dataTables_paginate paging_simple" id="tablepress-1_paginate">
+                <a class="paginate_button previous disabled" aria-controls="tablepress-1" data-dt-idx="0" tabindex="0" 
+                id="tablepress-1_previous">Previous</a><a class="paginate_button next" aria-controls="tablepress-1" data-dt-idx="1"
+                 tabindex="0" id="tablepress-1_next">Next</a></div></div><h3 class="ffb-id-2bcibf9o fg-heading text-center   
+                  fg-text-dark">Ninja's Stats</h3></div>
+</div>                 */}
             </div>
         </div>
     );

@@ -5,12 +5,13 @@
 }
 .header .navbar{
   height: 85px;
-  /* border: 2px solid green; */
   background-color: #fff;
 }
+
 .navbar-collapse .nav-item{
-  margin-top: 15px;
-  padding: 20px;
+  /* margin-top: 15px; */
+  padding-left: 20px;
+  /* border: 2px solid green; */
   /* margin-left: 10px; */
 }
 .navbar-collapse .marginright{
@@ -24,13 +25,20 @@
       display: block;
       width: 160px;
   }
-
   .navbar>.container .navbar-brand-centered, 
   .navbar>.container-fluid .navbar-brand-centered {
       margin-left: -80px;
   }
 }
-
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    position: absolute;
+    left: 30%;
+    display: block;
+    width: 220px;
+     /* border: 2px solid red; */
+  }
+}
 .back a:hover{
   display: inline-block;
   color:#fff;
@@ -38,4 +46,7 @@
 }
 .expand::selection{
   border: none;
+}
+.navbar-collapse .dropdown-item{
+  font-size: 13px;
 }
