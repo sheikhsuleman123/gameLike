@@ -14,11 +14,7 @@
   background-color: black;
 }
 .navbar-collapse .nav-item{
-  /* border: 2px solid green; */
   margin-left: 50%;
-}
-.navbar-collapse .marginright{
-  margin-left: 20px;
 }
 
 @media screen and (min-width:768px){
@@ -45,8 +41,8 @@
 @media screen and (max-width:576px){
   .navbar-collapse{
     position: relative;
-    right: 260px;
-    top: 27px;
+    right: 200px;
+    top: 8px;
   }
 }
 @media screen and (max-width:576px){
