@@ -14,7 +14,7 @@ class Header2 extends Component {
         <span class="btn navbar-toggler-icon"></span>
       </button>
 
-      <div  className="navbar-brand navbar-brand-centered">
+      <div  className="navbar-brand navbar-brand-centered mylogo">
          <img src={logo}  height="45"   />
       </div>     
 

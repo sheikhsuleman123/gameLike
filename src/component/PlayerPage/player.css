@@ -20,14 +20,20 @@ font-family: 'Arial';
     font-size: 32px;
 }
 .marginTop{
-    margin-top: 18%;
+    margin-top: 7%;
 }
 .marginTop2{
-    margin-top: 33%;
+    margin-top: 10%;
 }
 
-.border2{
+.border1{
     border: 2px solid red;
+}
+.border2{
+  border: 2px solid green;
+}
+.border3{
+  border: 2px solid blue;
 }
 @media screen and (max-width: 576px) {
   .pic{
@@ -47,9 +53,10 @@ font-family: 'Arial';
   }
   @media screen and (max-width: 576px) {
     .content img {
-        margin-left: 47%;
+        margin-left: 2%;
        /* background-color: red; */
      }
+     
    }
    @media screen and (max-width: 576px) {
     .content .par {
@@ -66,4 +73,58 @@ font-family: 'Arial';
   table tr td:hover{
     background-color: #dcdcdc;
   }
+  @media screen and (max-width: 763px) {
+    table {
+      margin-top: 230px;
+       /* border: 2px solid green;  */
+       }
+       .dato {
+         text-align: center;
+         /* background-color: aqua; */
+       }
+       .dato2{
+         margin-left: 220px;
+       }
+       .dato3{
+        margin-left: 230px;
+       }
+        .pic{
+          margin-left: 70px;
+        }
+   }
+   @media screen and (max-width: 900px){
+    .pic{
+      margin-left: 110px;
+    }
+    table {
+       /* border: 2px solid green;  */
+       }
+       .dato{
+         text-align: center;
+       }
+      .dato2{
+        margin-left: 130px;
+      }
+      .dato3{
+        margin-left: 140px;
+      }   
+   }
+   @media screen and (max-width: 700px){
+    
+    .dato2{
+      margin-left: 210px;
+    }
+    .dato3{
+      margin-left: 230px;
+    }   
+    /* table {
+       border: 2px solid green; 
+       } */
+}
 
+@media screen and (max-width: 613px) {
+  .pic{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+  }
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import './home.css';
 
+
+
 const PLayerPage = () => {
     return (
             <div className="head">

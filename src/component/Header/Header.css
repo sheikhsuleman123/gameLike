@@ -63,3 +63,10 @@
 .navbar-collapse .dropdown-item{
   font-size: 13px;
 }
+
+@media screen and (max-width: 900px){
+.mylogo{
+  /* border: 2px solid green; */
+  margin-right: 190px;
+}
+}
